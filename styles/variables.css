@@ -2,8 +2,8 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color-black-light: #181823;
-  --color-grey-light: #deecf9;
-  --color-grey-dark: #c7e0f4;
+  --color-gray-light: #deecf9;
+  --color-gray-dark: #c7e0f4;
   --color-blue: #5221e6;
   --color-green: #3cc74e;
   --color-pink: #e95d90;
@@ -19,6 +19,3 @@
 a {
   color: var(--color-white);
 }
-
-
-
