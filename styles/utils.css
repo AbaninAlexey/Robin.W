@@ -1,9 +1,7 @@
 @import "variables.css";
 
 .container {
-  margin-inline: auto;
-  max-width: calc(
-    (var(--container-width) + var(--container-padding-inline)) * 2
-  );
-  padding-inline: var(--container-padding-inline);
-}
+    margin-inline: auto;
+    max-width: calc(var(--container-width) +  (var(--container-padding-inline) * 2));
+    padding-inline: var(--container-padding-inline);
+}   
