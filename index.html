@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Robin. W</title>
-</head>
-<body>
-</body>
+  </head>
+
+  <body>
+    <section class="gallery">
+      <header>
+        <h2 class="gallery__title">Photography</h2>
+        <p class="gallery__subtitle">
+          Here is a collection of my best travel pictures that I took while
+          travelling places all around the world.
+        </p>
+      </header>
+      git fetch origin
+      <div class="gallery__filters"></div>
+    </section>
+    <div class="gallery__filters">
+      <button class="gallery__filter gallery__filter--active" type="button">
+        Italy
+      </button>
+      <button class="gallery__filter" type="button">Australia</button>
+      <button class="gallery__filter" type="button">India</button>
+      <button class="gallery__filter" type="button">Brazil</button>
+    </div>
+    <div class="gallery__grid">
+      <img src="images/foto 1.png" class="gallery__image" alt="" />
+      <img src="images/foto 2.png" class="gallery__image" alt="" />
+      <img src="images/foto 3.png" class="gallery__image" alt="" />
+      <img src="images/foto 4.png" class="gallery__image" alt="" />
+    </div>
+  </body>
 </html>
