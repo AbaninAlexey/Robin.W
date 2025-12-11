@@ -10,5 +10,21 @@
 
 .experience__title  {
   text-transform: uppercase;
-  color: var(--color-grey-light);
+  color: var(--color-gray-light);
+  line-height: 150%;
+}
+
+.experience__body {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.experience-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-card__description {
+  margin-top: 22px;
 }
