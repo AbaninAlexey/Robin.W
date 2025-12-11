@@ -1,3 +1,14 @@
 @import "globals.css";
 @import "variables.css";
 @import "utils.css";
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+
+.experience__title  {
+  text-transform: uppercase;
+  color: var(--color-grey-light);
+}

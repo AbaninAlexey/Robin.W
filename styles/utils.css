@@ -2,6 +2,6 @@
 
 .container {
     margin-inline: auto;
-    max-width: calc((var(--container-width) +  var(--container-padding-inline)) * 2);
+    max-width: calc((var(--container-width) + var(--container-padding-inline)) * 2);
     padding-inline: var(--container-padding-inline);
 }   
