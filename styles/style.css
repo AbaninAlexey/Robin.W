@@ -2,3 +2,7 @@
 @import "variables.css";
 @import "utils.css";
 
+.skillset {
+  display: grid;
+  
+}
