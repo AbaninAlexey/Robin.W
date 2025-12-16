@@ -11,7 +11,7 @@
 
 .experience__title {
   text-transform: uppercase;
-  color: #8491A0;
+  color: #8491a0;
   line-height: 150%;
 }
 
@@ -82,13 +82,13 @@
 
 a.values__link {
   color: var(--color-black);
-  border-bottom: 1px solid #8491A0;
+  border-bottom: 1px solid #8491a0;
   padding-bottom: 4px;
   width: max-content;
   line-height: 150%;
 }
 
-.values__header{
+.values__header {
   max-width: 576px;
   display: flex;
   flex-direction: column;
@@ -98,14 +98,14 @@ a.values__link {
 
 .philosophy__description {
   font-size: 18px;
-  color: #5B6876;
+  color: #5b6876;
   line-height: 150%;
 }
 
 .values::before {
   content: "";
   position: absolute;
-  background: url('../images/values.jpg') center/cover no-repeat;
+  background: url("../images/values.jpg") center/cover no-repeat;
   max-width: 720px;
   width: 100%;
   height: 100%;
