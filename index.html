@@ -7,32 +7,83 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Robin. W</title>
   </head>
-
   <body>
-    <section class="gallery">
-      <header>
-        <h2 class="gallery__title">Photography</h2>
-        <p class="gallery__subtitle">
-          Here is a collection of my best travel pictures that I took while
-          travelling places all around the world.
-        </p>
-      </header>
-      git fetch origin
-      <div class="gallery__filters"></div>
+    <section class="gallery container">
+      <div class="gallery__сontent">
+        <header class="header gallery__header">
+          <h2 class="gallery__header-title">Photography</h2>
+          <p class="color__font gallery__header-subtitle">
+            Here is a collection of my best travel pictures that I took while<br />
+            travelling places all around the world.
+          </p>
+        </header>
+      </div>
+      <div class="gallery__filters">
+        <button class="gallery__button gallery__button--active" type="button">
+          ITALY
+        </button>
+        <button class="gallery__button" type="button">AUSTRALIA</button>
+        <button class="gallery__button" type="button">INDIA</button>
+        <button class="gallery__button" type="button">BRAZIL</button>
+      </div>
+      <div class="gallery__painting">
+        <img
+          src="images/foto1.png"
+          class="gallery__image"
+          alt="Узкая старинная улица в Италии с каменными домами"
+          width="306"
+          height="420"
+        />
+        <img
+          src="images/foto2.png"
+          class="gallery__image"
+          alt="Итальянское кафе у канала, проплывающая мимо"
+          width="306"
+          height="420"
+        />
+        <img
+          src="images/foto3.png"
+          class="gallery__image"
+          alt="Мост Риальто в Венеции и гондолы на канале"
+          width="306"
+          height="420"
+        />
+        <img
+          src="images/foto4.png"
+          class="gallery__image"
+          alt="Красочные дома Чинкве-Терре на скале над морем"
+          width="306"
+          height="420"
+        />
+      </div>
     </section>
-    <div class="gallery__filters">
-      <button class="gallery__filter gallery__filter--active" type="button">
-        Italy
-      </button>
-      <button class="gallery__filter" type="button">Australia</button>
-      <button class="gallery__filter" type="button">India</button>
-      <button class="gallery__filter" type="button">Brazil</button>
-    </div>
-    <div class="gallery__grid">
-      <img src="images/foto 1.png" class="gallery__image" alt="" />
-      <img src="images/foto 2.png" class="gallery__image" alt="" />
-      <img src="images/foto 3.png" class="gallery__image" alt="" />
-      <img src="images/foto 4.png" class="gallery__image" alt="" />
-    </div>
+    <section class="feedback container">
+      <div class="feedback__content">
+        <header class="header">
+          <h2 class="feedback__header-title">Let’s get started</h2>
+          <p class="color__font feedback__header-subtitle">
+            Now that you know a lot about me, let me know if you are<br />
+            interested to work with me.
+          </p>
+        </header>
+      </div>
+      <div class="feedback__сreation">
+        <label class="feedback__label">
+          <span class="feedback__label-span">Name</span>
+          <input type="text" class="feedback__label-input" />
+        </label>
+        <label class="feedback__label">
+          <span class="feedback__label-span">Email</span>
+          <input type="email" class="feedback__label-input" />
+        </label>
+        <label class="feedback__label">
+          <span class="feedback__label-span">Massage</span>
+          <textarea class="feedback__label-textarea"></textarea>
+        </label>
+        <button class="feedback__button" type="button">
+          Let’s get started
+        </button>
+      </div>
+    </section>
   </body>
 </html>
