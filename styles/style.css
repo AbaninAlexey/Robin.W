@@ -37,6 +37,10 @@
   text-transform: uppercase;
 }
 
+.gallery__button:focus-visible {
+  outline: 2px solid var(--color-white);
+}
+
 .gallery__button--active {
   background-color: var(--color-blue);
 }
@@ -71,12 +75,23 @@
   padding: 0 10px 0;
 }
 
+.feedback__label-input:focus-visible {
+  outline: 2px solid var(--color-white);
+  outline-offset: 1px;
+}
+
 .feedback__label-textarea {
   width: 526px;
   height: 100px;
   background-color: var(--color-black-light);
   resize: none;
   padding: 5px 10px;
+  outline: none;
+}
+
+.feedback__label-textarea:focus-visible {
+  outline: 2px solid var(--color-white);
+  outline-offset: 1px;
 }
 
 .feedback__button {
@@ -88,4 +103,9 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 150%;
+}
+
+.feedback__button:focus-visible {
+  outline: 2px solid var(--color-white);
+  outline-offset: 1px;
 }
