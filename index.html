@@ -1,49 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Robin. W</title>
-</head> 
+  </head>
 
-<body>
-    <section class="social"></section>
-    <section class="section__dribbble" hidden>
-        <div class="dribbble__container container">
-            <header class="header__dribbble">
-                <h2 class="header__dribbble-title">Dribbble</h2>
-                <p class="header__dribbble-description">
-                    Each dribbble shot is made with love and care. Do check out my work
-                    on Dribbble. Likes and comments are appreciated.
-                </p>
-                <button class="header__dribbble-follow__button underline">
-                    Follow me on Dribbble
-                </button>
-            </header>
-            <div class="dribbble__content">
-                <img src="./images/dribbble.png" alt="" class="dribbble__content-image" />
-            </div>
-        </div>
-    </section>
-    <!-- <section class="section__about" id="about-me">
-        <header class="header__about">
-            <h1 class="header__about-title">
-
-            </h1>
-            <p class="header__about-description">
-
+  <body>
+    <section class="values" id="instagram">
+      <div class="values__wrapper container">
+        <header class="values__header">
+          <h2 class="instagram__title">Instagram</h2>
+          <div class="instagram__description">
+            <p>
+              If you area a person who enjoys photography, then I highly recommend that you check out my Instagram. I’m an avid traveller and I capture the best moments that I would love to cherish with the world
             </p>
-            <button class="header__about-follow__button">
-                Follow me on Dribbble
-            </button>
+          </div>
         </header>
-        <div class="section__content">
-            <img src="./images/dribbble.png" alt="" class="section__content-image">
+        <a href="#" class="values__link instagram__button-hover"> Follow me on IG </a>
+      </div>
+    </section>
+    <section class="social" id="social"></section>
+    <section class="section__dribbble" hidden>
+      <div class="dribbble__container container">
+        <header class="header__dribbble">
+          <h2 class="header__dribbble-title">Dribbble</h2>
+          <p class="header__dribbble-description">
+            Each dribbble shot is made with love and care. Do check out my work
+            on Dribbble. Likes and comments are appreciated.
+          </p>
+          <button class="header__dribbble-follow__button underline">
+            Follow me on Dribbble
+          </button>
+        </header>
+        <div class="dribbble__content">
+          <img
+            src="./images/dribbble.png"
+            alt=""
+            class="dribbble__content-image"
+          />
         </div>
-    </section> -->
-</body>
-
+      </div>
+    </section>
+    <section class="section__about container" id="about-me">
+      <div class="about__container">
+        <header class="header__about">
+          <h2 class="header__about-title">This is what people say about me</h2>
+          <p class="header__about-description">
+            Here are a few lines from people who I have worked with over the
+            past 8+ years in my design career.
+          </p>
+          <button class="header__about-follow__button underline">
+            See all testimonials
+          </button>
+        </header>
+        <ul class="about__card-list">
+          <li class="about__card-list-item">
+            <article class="card">
+              <img src="./images/card__workplace-photo.png" alt="">
+              <div class="card__content-wrapper">
+                <h3 class="card__content-title">
+                  ‘’Robin is one of the best designers I have worked with in my entire life. He is a designer who is very capable of taking up complex projects and delivers impeccable design.’’
+                </h3>
+                <p class="card__content-author__name">
+                  Richard Owens
+                </p>
+                <p class="card__content-author__info">
+                  CEO, Company 1
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="about__card-list-item">
+            <article class="card">
+              <img src="./images/card__company-photo.png" alt="">
+              <div class="card__content-wrapper">
+                <h3 class="card__content-title">
+                  ‘’I think Robin has an incredible gift. It has been an absolute pleasure to work with a designer of this caliber.’’
+                </h3>
+                <p class="card__content-author__name">
+                  REmily Parker
+                </p>
+                <p class="card__content-author__info">
+                  CEO, Company 2
+                </p>
+            </article>
+          </li>
+          <li class="about__card-list-item">
+            <article class="card">
+              <img src="./images/card__discuss-photo.png" alt="">
+              <div class="card__content-wrapper">
+                <h3 class="card__content-title">
+                  ‘’All I can say that, Robin is a phenomenal designer. The wavelength at which he thinks is astoundaing. I love the focus, passion and attention to detial in the design.’’
+                </h3>
+                <p class="card__content-author__name">
+                  Vincent  Rudd
+                </p>
+                <p class="card__content-author__info">
+                  CEO, Company 1
+                </p>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
 </html>

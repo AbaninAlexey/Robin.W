@@ -4,12 +4,99 @@
 
 /*  */
 
+body {
+  height: 5000px;
+}
+
 .underline {
   border-bottom: 1px solid var(--color-gray-light);
 }
 
-/* Social Section */
+/* Instagram Section */
 
+.values {
+  background-color: var(--color-violet);
+  color: var(--color-black);
+}
+
+.values {
+  display: flex;
+  flex-direction: column;
+  padding-block: 120px;
+  position: relative;
+}
+
+.values__wrapper {
+  width: 100%;
+  display: grid;
+  row-gap: 134px;
+}
+
+a.values__link {
+  color: var(--color-black);
+  border-bottom: 1px solid var(--color-light-grey);
+  padding-bottom: 4px;
+  width: max-content;
+  line-height: 150%;
+}
+
+.instagram__button-hover {
+  position: relative;
+  padding-bottom: 5px;
+
+  background: linear-gradient(90deg, var(--color-black-light) 50%, var(--color-white) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: background-position 0.9s ease;
+}
+
+.instagram__button-hover:hover {
+  background-position: left bottom;
+}
+
+.instagram__button-hover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--color-black-light);
+  transition: width 0.9s ease;
+}
+
+.instagram__button-hover:hover::after {
+  width: 100%;
+}
+
+.values__header {
+  max-width: 576px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  justify-content: start;
+}
+
+.instagram__description {
+  font-size: 18px;
+  color: #5b6876;
+  line-height: 150%;
+}
+
+.values::before {
+  content: "";
+  position: absolute;
+  background: url("../images/Instagram.png") center/cover no-repeat;
+  max-width: 720px;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 50%;
+  translate: 0 -50%;
+}
 
 /* Dribbble */
 
@@ -41,6 +128,7 @@
   line-height: 150%;
   color: var(--light-grey);
   color: var(--color-light-grey);
+  margin-bottom: 40px;
 }
 
 .header__dribbble-follow__button {
@@ -48,6 +136,35 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
+  position: relative;
+  padding-bottom: 5px;
+
+  background: linear-gradient(90deg, var(--color-blue) 50%, var(--color-white) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: background-position 0.9s ease;
+}
+
+.header__dribbble-follow__button:hover {
+  background-position: left bottom;
+}
+
+.header__dribbble-follow__button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--color-blue);
+  transition: width 0.9s ease;
+}
+
+.header__dribbble-follow__button:hover::after {
+  width: 100%;
 }
 
 .dribbble__content {
@@ -56,3 +173,118 @@
 }
 
 /* About */
+
+.section__about {
+  margin: 0 auto;
+  padding: 120px 0;
+  box-sizing: border-box;
+}
+
+.about__container {
+  position: relative; 
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  /* min-height: calc(790px * 3 + 120px * 2 + 120px); */
+}
+
+.header__about {
+  width: 636px;
+  position: sticky;
+  top: 120px;
+  align-self: flex-start;
+  margin-bottom: calc(790px - 279px);
+}
+
+.header__about-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 55px;
+  width: 588px;
+  margin-bottom: 24px;
+}
+
+.header__about-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--color-light-grey);
+  width: 588px;
+  margin-bottom: 40px;
+}
+
+.header__about-follow__button {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  position: relative;
+  padding-bottom: 5px;
+
+  background: linear-gradient(90deg, var(--color-blue) 50%, var(--color-white) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: background-position 0.9s ease;
+}
+
+.header__about-follow__button:hover {
+  background-position: left bottom;
+}
+
+.header__about-follow__button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--color-blue);
+  transition: width 0.9s ease;
+}
+
+.header__about-follow__button:hover::after {
+  width: 100%;
+}
+
+.about__card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 120px; 
+  flex: 1;
+}
+
+.about__card-list-item {
+  width: 638px;
+  height: 790px;
+}
+
+.card__content-wrapper {
+  padding: 64px;
+  border: 1px solid var(--color-dark-grey);
+}
+
+.card__content-title {
+  font-family: var(--font-family);
+  line-height: 150%;
+  margin-bottom: 64px;
+}
+
+.card__content-author__name {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--color-dark-grey);
+}
+
+.card__content-author__info {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--color-dark-grey);
+}

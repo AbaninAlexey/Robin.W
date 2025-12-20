@@ -15,6 +15,8 @@
     --container-width: 1296px;
     --container-padding-inline: 16px;
 
-    /* Fixing color pallete for description light-grey */
+    /* Fixing color pallete for dribble section description light-grey */
     --color-light-grey: #8491a0;
+    /* Fixing color pallete for about section border dark-grey */
+    --color-dark-grey: #5b6876;
 }
