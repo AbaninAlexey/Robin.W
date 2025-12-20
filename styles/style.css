@@ -1,3 +1,39 @@
 @import "globals.css";
 @import "variables.css";
 @import "utils.css";
+
+/*  */
+
+.underline {
+  border-bottom: 1px solid var(--color-gray-light);
+}
+
+/* Social Section */
+
+
+/* Dribbble */
+
+.section__dribbble {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 0;
+  box-sizing: border-box;
+}
+
+.header__dribbble {
+  width: 636px;
+}
+
+.header__dribble-title {
+
+}
+
+.header__dribble-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--light-grey);
+}
+
+/* About */
