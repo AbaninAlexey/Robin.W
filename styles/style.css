@@ -106,18 +106,6 @@ a.values__link {
   height: 100%;
 }
 
-/* .values::before {
-  content: "";
-  position: absolute;
-  background: url("../images/Instagram.png") center/cover no-repeat;
-  max-width: 720px;
-  width: 100%;
-  height: 100%;
-  right: 0;
-  top: 50%;
-  translate: 0 -50%;
-} */
-
 /* Dribbble */
 
 .section__dribbble {
