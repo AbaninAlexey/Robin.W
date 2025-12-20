@@ -14,26 +14,45 @@
 /* Dribbble */
 
 .section__dribbble {
+  padding: 120px 0;
+}
+
+.dribbble__container {
   display: flex;
   flex-direction: column;
-  padding: 120px 0;
-  box-sizing: border-box;
+  align-items: flex-start;
+  gap: 120px; 
+  padding: 0 126px;
 }
 
 .header__dribbble {
   width: 636px;
+  flex-shrink: 0;
 }
 
-.header__dribble-title {
-
+.header__dribbble-title {
+  margin-bottom: 24px;
 }
 
-.header__dribble-description {
+.header__dribbble-description {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: var(--light-grey);
+  color: var(--color-light-grey);
+}
+
+.header__dribbble-follow__button {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.dribbble__content {
+  margin: 0 auto;
+  min-width: 0
 }
 
 /* About */
