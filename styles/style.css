@@ -22,14 +22,17 @@ body {
 .values {
   display: flex;
   flex-direction: column;
-  padding-block: 120px;
   position: relative;
+}
+
+.values__header p {
+  width: 576px;
 }
 
 .values__wrapper {
   width: 100%;
   display: grid;
-  row-gap: 134px;
+  grid-template-columns: 50% 50%;
 }
 
 a.values__link {
@@ -43,6 +46,7 @@ a.values__link {
 .instagram__button-hover {
   position: relative;
   padding-bottom: 5px;
+  margin-bottom: -5px;
 
   background: linear-gradient(90deg, var(--color-black-light) 50%, var(--color-white) 50%);
   background-size: 200% 100%;
@@ -73,20 +77,36 @@ a.values__link {
 }
 
 .values__header {
+  padding: 120px 72px;
   max-width: 576px;
   display: flex;
   flex-direction: column;
-  row-gap: 24px;
   justify-content: start;
 }
+
+.instagram__title {
+  margin-bottom: 24px;
+}
+
 
 .instagram__description {
   font-size: 18px;
   color: #5b6876;
   line-height: 150%;
+  margin-bottom: 135px;
 }
 
-.values::before {
+.decorative__image-container {
+  width: 720px;
+  height: 600px;
+}
+
+.instagram-decorative__image {
+  width: 100%;
+  height: 100%;
+}
+
+/* .values::before {
   content: "";
   position: absolute;
   background: url("../images/Instagram.png") center/cover no-repeat;
@@ -96,7 +116,7 @@ a.values__link {
   right: 0;
   top: 50%;
   translate: 0 -50%;
-}
+} */
 
 /* Dribbble */
 
@@ -168,8 +188,14 @@ a.values__link {
 }
 
 .dribbble__content {
-  margin: 0 auto;
-  min-width: 0
+  position: relative;
+  width: 1076px;
+  height: 676px;
+}
+
+.dribbble__content-image {
+  height: 100%;
+  width: 100%;
 }
 
 /* About */
