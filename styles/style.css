@@ -429,6 +429,113 @@ a.values__link {
   max-width: max-content;
   margin: auto;
   margin-top: 67px;
-.header {
-    height: 88px;
 }
+
+.gallery {
+  padding: 120px 0;
+}
+
+.feddback__header, .gallery__header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.feedback__font {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--color-gray-light);
+}
+
+.gallery__filters {
+  display: flex;
+  margin-top: 64px;
+  gap: 24px;
+}
+
+.gallery__button {
+  border: 1px solid var(--color-blue);
+  padding: 12px 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+.gallery__button:focus-visible {
+  outline: 2px dashed var(--color-white);
+  outline-offset: 1px;
+}
+
+.gallery__button--active {
+  background-color: var(--color-blue);
+}
+
+.gallery__painting {
+  display: flex;
+  margin-top: 40px;
+  gap: 24px;
+}
+
+.feedback {
+  display: flex;
+  padding: 120px 108px;
+  gap: 54px;
+}
+
+.feedback__сreation {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.feedback__label-span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.feedback__label-input {
+  width: 526px;
+  height: 50px;
+  background-color: var(--color-black-light);
+  padding: 0 10px 0;
+}
+
+.feedback__label-input:focus-visible {
+  outline: 2px dashed var(--color-white);
+  outline-offset: 1px;
+}
+
+.feedback__label-textarea {
+  width: 526px;
+  height: 100px;
+  background-color: var(--color-black-light);
+  resize: none;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.feedback__label-textarea:focus-visible {
+  outline: 2px dashed var(--color-white);
+  outline-offset: 1px;
+}
+
+.feedback__button {
+  padding: 24px 32px;
+  width: 526px;
+  height: 75px;
+  background-color: var(--color-blue);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.feedback__button:hover {
+  text-decoration: underline;
+}
+
+.feedback__button:focus-visible {
+  outline: 2px dashed var(--color-white);
+  outline-offset: 1px;
