@@ -4,10 +4,6 @@
 
 /*  */
 
-body {
-  height: 5000px;
-}
-
 .underline {
   border-bottom: 1px solid var(--color-gray-light);
 }
