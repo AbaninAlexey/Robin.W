@@ -1,22 +1,19 @@
 :root {
-    --color-white: #FFFFFF;
-    --color-black: #000000;
-    --color-black-light: #181823;
-    --color-gray-light: #DEECF9;
-    --color-gray-dark: #C7E0F4;
-    --color-blue: #5221E6;
-    --color-green: #3CC74E;
-    --color-pink: #E95D90;
-    --color-peach: #FFF3E4;
-    --color-violet: #FBE4FF;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-black-light: #181823;
+  --color-gray-light: #deecf9;
+  --color-gray-dark: #c7e0f4;
+  --color-blue: #5221e6;
+  --color-green: #3cc74e;
+  --color-pink: #e95d90;
+  --color-peach: #fff3e4;
+  --color-violet: #fbe4ff;
+  --section-padding-block: 120px;
+  --color-light-grey: #8491a0;
+  --color-dark-grey: #5b6876;
+}
 
-    --section-padding-block: 120px;
-
-    --container-width: 1296px;
-    --container-padding-inline: 16px;
-
-    /* Fixing color pallete for dribble section description light-grey */
-    --color-light-grey: #8491a0;
-    /* Fixing color pallete for about section border dark-grey */
-    --color-dark-grey: #5b6876;
+a {
+  color: var(--color-white);
 }
