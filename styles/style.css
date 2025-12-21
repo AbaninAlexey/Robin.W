@@ -14,28 +14,28 @@ body {
 
 /* Instagram Section */
 
-.values {
+.instagram__values {
   background-color: var(--color-violet);
   color: var(--color-black);
 }
 
-.values {
+.instagram__values {
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
-.values__header p {
+.instagram__values-header p {
   width: 576px;
 }
 
-.values__wrapper {
+.instagram__values-wrapper {
   width: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-a.values__link {
+a.instagram__values-link {
   color: var(--color-black);
   border-bottom: 1px solid var(--color-light-grey);
   padding-bottom: 4px;
@@ -76,7 +76,7 @@ a.values__link {
   width: 100%;
 }
 
-.values__header {
+.instagram__values-header {
   padding: 120px 72px;
   max-width: 576px;
   display: flex;
@@ -87,7 +87,6 @@ a.values__link {
 .instagram__title {
   margin-bottom: 24px;
 }
-
 
 .instagram__description {
   font-size: 18px;
