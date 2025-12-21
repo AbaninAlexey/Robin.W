@@ -9,11 +9,9 @@
   --color-pink: #e95d90;
   --color-peach: #fff3e4;
   --color-violet: #fbe4ff;
-
   --section-padding-block: 120px;
-
-  --container-width: 1296px;
-  --container-padding-inline: 16px;
+  --color-light-grey: #8491a0;
+  --color-dark-grey: #5b6876;
 }
 
 a {
