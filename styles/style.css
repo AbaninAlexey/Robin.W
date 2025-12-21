@@ -2,7 +2,7 @@
 @import "variables.css";
 @import "utils.css";
 
-/*  */
+/* Re-used Classes */
 
 .underline {
   border-bottom: 1px solid var(--color-gray-light);
