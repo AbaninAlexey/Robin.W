@@ -19,6 +19,7 @@
         />
         <nav class="header__nav">
           <ul class="header__nav-list">
+            <!-- доделать ссылки -->
             <li class="header__nav-item">Experience</li>
             <li class="header__nav-item">Work</li>
             <li class="header__nav-item">Photography</li>
@@ -35,10 +36,15 @@
         alt="Robin Williams photo"
       />
       <div class="hero__content-container">
+        <!-- должно быть hero__title -->
         <h2 class="content-h">
           I’m Robin Williams. A Product Designer
+          <!-- hero__accent -->
           <span class="content-accent">based in Italy</span>.
         </h2>
+        <!-- div hero__description > p
+         
+        -->
         <p class="content-p">
           I’m probably the most passionate designer you will ever get to work
           with. If you have <br />a great project that needs some amazing
@@ -83,6 +89,7 @@
             the past 6 years.
           </div>
         </article>
+        <!-- переделать бэм блок -->
         <article class="experience__card experience-card">
           <span class="experience-card__number"> 03 </span>
           <h3 class="experience-card__title">
@@ -111,6 +118,7 @@
             </p>
           </div>
         </header>
+        <!-- доделать якорь -->
         <a href="#" class="values__link"> More about me </a>
       </div>
     </section>
@@ -124,6 +132,7 @@
         </p>
       </header>
       <div class="skillset__card-container">
+        <!-- доделать бэм блок -->
         <div class="skillset__card">
           <img src="./images/rectangle.svg" class="skillset__image" />
           <h3 class="card__tittle">Product Design</h3>
@@ -161,6 +170,9 @@
     </section>
     <section class="skillset__scrollbar">
       <div class="scrollbar__container">
+        <!-- исправить бэм элемент, отнести его к skillset или создать новый блок
+         нет атрибута alt 
+         можно дополнить w и h-->
         <div class="card__scrollbar">
           <img class="image__scrollbar" src="./images/cbre.svg" />
         </div>
@@ -182,21 +194,27 @@
       </div>
     </section>
     <section class="myprojects">
-      <div class="myprojects__container">
+      <!-- добавить класс container и убрать свои стили стили контейнера -->
+      <div class="myprojects__container container">
+        <!-- нужно отредактировать header-with-card-container-->
         <div class="myprojects__headerwithcard-container">
           <header class="myprojects__header">
             <h2 class="myprojects__tittle">MY PROJECTS</h2>
+            <!-- описание -->
             <p class="myprojects__tittle-pseudo">
               Work that I’ve done for the past 8 years
             </p>
           </header>
           <div class="myprojects__card">
+            <!-- h и w -->
             <img
               src="./images/laptopview.png"
               alt=""
               class="myprojects__image"
             />
+            <!-- убрать указание bottom -->
             <div class="myproject__card-bottom">
+              <!-- очепятка title -->
               <h3 class="myprojects__card-tittle">Restaurant Website Design</h3>
               <p class="myprojects__card-description">
                 I worked with the guys at CBRE to redesign their entire website
@@ -221,9 +239,10 @@
             </div>
           </div>
         </div>
-
+        <!-- button-with-card или переименовать -->
         <div class="myprojects__buttonwithcard-container">
           <div class="myprojects__card">
+            <!-- width и height -->
             <img src="./images/coinview.png" alt="" class="myprojects__image" />
             <div class="myproject__card-bottom">
               <h3 class="myprojects__card-tittle">Restaurant Website Design</h3>
@@ -235,6 +254,7 @@
             </div>
           </div>
           <div class="myprojects__card">
+            <!-- width и height -->
             <img
               src="./images/rectangleview.png"
               alt=""
@@ -249,29 +269,42 @@
               </p>
             </div>
           </div>
+          <!-- type="button" добавить атрибут -->
           <button class="myprojects__button">VIEW ALL PROJECTS</button>
         </div>
       </div>
     </section>
-     <!-- Start Instagram Section -->
+    <!-- Start Instagram Section -->
     <section class="instagram__values instagram-container" id="instagram">
       <div class="instagram__values-wrapper container">
         <header class="instagram__values-header">
           <h2 class="instagram__title">Instagram</h2>
           <div class="instagram__description">
             <p>
-              If you area a person who enjoys photography, then I highly recommend that you check out my Instagram. I’m an avid traveller and I capture the best moments that I would love to cherish with the world
+              If you area a person who enjoys photography, then I highly
+              recommend that you check out my Instagram. I’m an avid traveller
+              and I capture the best moments that I would love to cherish with
+              the world
             </p>
           </div>
-        <a href="#" class="instagram__values-link instagram__button-hover"> Follow me on IG </a>
+          <!-- отредактировать класс -->
+          <a href="#" class="instagram__values-link instagram__button-hover">
+            Follow me on IG
+          </a>
         </header>
-              <div class="decorative__image-container">
-        <img src="./images/Instagram.png" alt="" class="instagram-decorative__image">
-      </div>
+        <div class="decorative__image-container">
+          <!-- название файла и атрибуты -->
+          <img
+            src="./images/Instagram.png"
+            alt=""
+            class="instagram-decorative__image"
+          />
+        </div>
       </div>
     </section>
     <!-- End Instagram Section -->
     <!-- Start Dribbble Section -->
+    <!-- нет бэм блока в секции -->
     <section class="section__dribbble" hidden>
       <div class="dribbble__container container">
         <header class="header__dribbble">
@@ -295,6 +328,7 @@
     </section>
     <!-- End Dribbble Section -->
     <!-- Start About Section -->
+    <!-- нет бэм блока -->
     <section class="section__about container" id="about-me">
       <div class="about__container">
         <header class="header__about">
@@ -312,49 +346,45 @@
           <!-- Card Item Start-->
           <li class="about__card-list-item">
             <article class="card">
-              <img src="./images/card__workplace-photo.png" alt="">
+              <img src="./images/card__workplace-photo.png" alt="" />
               <div class="card__content-wrapper">
                 <h3 class="card__content-title">
-                  ‘’Robin is one of the best designers I have worked with in my entire life. He is a designer who is very capable of taking up complex projects and delivers impeccable design.’’
+                  ‘’Robin is one of the best designers I have worked with in my
+                  entire life. He is a designer who is very capable of taking up
+                  complex projects and delivers impeccable design.’’
                 </h3>
-                <p class="card__content-author__name">
-                  Richard Owens
-                </p>
-                <p class="card__content-author__info">
-                  CEO, Company 1
-                </p>
+                <p class="card__content-author__name">Richard Owens</p>
+                <p class="card__content-author__info">CEO, Company 1</p>
               </div>
             </article>
           </li>
           <!-- Card item End -->
           <li class="about__card-list-item">
             <article class="card">
-              <img src="./images/card__company-photo.png" alt="">
+              <img src="./images/card__company-photo.png" alt="" />
               <div class="card__content-wrapper">
                 <h3 class="card__content-title">
-                  ‘’I think Robin has an incredible gift. It has been an absolute pleasure to work with a designer of this caliber.’’
+                  ‘’I think Robin has an incredible gift. It has been an
+                  absolute pleasure to work with a designer of this caliber.’’
                 </h3>
-                <p class="card__content-author__name">
-                  REmily Parker
-                </p>
-                <p class="card__content-author__info">
-                  CEO, Company 2
-                </p>
+                <p class="card__content-author__name">REmily Parker</p>
+                <p class="card__content-author__info">CEO, Company 2</p>
+              </div>
             </article>
           </li>
           <li class="about__card-list-item">
+            <!-- класс card уже есть -->
             <article class="card">
-              <img src="./images/card__discuss-photo.png" alt="">
+              <img src="./images/card__discuss-photo.png" alt="" />
               <div class="card__content-wrapper">
                 <h3 class="card__content-title">
-                  ‘’All I can say that, Robin is a phenomenal designer. The wavelength at which he thinks is astoundaing. I love the focus, passion and attention to detial in the design.’’
+                  ‘’All I can say that, Robin is a phenomenal designer. The
+                  wavelength at which he thinks is astoundaing. I love the
+                  focus, passion and attention to detial in the design.’’
                 </h3>
-                <p class="card__content-author__name">
-                  Vincent  Rudd
-                </p>
-                <p class="card__content-author__info">
-                  CEO, Company 1
-                </p>
+                <p class="card__content-author__name">Vincent Rudd</p>
+                <p class="card__content-author__info">CEO, Company 1</p>
+              </div>
             </article>
           </li>
         </ul>
@@ -366,6 +396,7 @@
       <div class="gallery__сontent">
         <header class="gallery__header gallery__header">
           <h2 class="gallery__header-title">Photography</h2>
+          <!-- нет бэм блока color, есть gallery -->
           <p class="color__font gallery__header-subtitle">
             Here is a collection of my best travel pictures that I took while<br />
             travelling places all around the world.
@@ -379,6 +410,7 @@
         <button class="gallery__button">BRAZIL</button>
       </div>
       <div class="gallery__painting">
+        <!-- перевести alt -->
         <img
           src="images/foto1.png"
           class="gallery__image"
@@ -413,6 +445,7 @@
       <div class="feedback__content">
         <header class="feedback__header">
           <h2 class="feedback__header-title">Let’s get started</h2>
+          <!-- feedback__header-subtitle сделать модификатором -->
           <p class="feedback__font feedback__header-subtitle">
             Now that you know a lot about me, let me know if you are<br />
             interested to work with me.
@@ -497,6 +530,5 @@
         </nav>
       </div>
     </footer>
-
   </body>
 </html>

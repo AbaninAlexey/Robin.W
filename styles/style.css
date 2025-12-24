@@ -22,6 +22,8 @@
 }
 
 .instagram__values-header p {
+  /* убрать фикс если не нужна
+  напирмер max-width width 100 */
   width: 576px;
 }
 
@@ -44,7 +46,11 @@ a.instagram__values-link {
   padding-bottom: 5px;
   margin-bottom: -5px;
 
-  background: linear-gradient(90deg, var(--color-black-light) 50%, var(--color-white) 50%);
+  background: linear-gradient(
+    90deg,
+    var(--color-black-light) 50%,
+    var(--color-white) 50%
+  );
   background-size: 200% 100%;
   background-position: right bottom;
   -webkit-background-clip: text;
@@ -58,7 +64,7 @@ a.instagram__values-link {
 }
 
 .instagram__button-hover::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -92,6 +98,7 @@ a.instagram__values-link {
 }
 
 .decorative__image-container {
+  /* убрать лишнее */
   width: 720px;
   height: 600px;
 }
@@ -111,11 +118,12 @@ a.instagram__values-link {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 120px; 
+  gap: 120px;
   padding: 0 126px;
 }
 
 .header__dribbble {
+  /* max width */
   width: 636px;
   flex-shrink: 0;
 }
@@ -126,6 +134,7 @@ a.instagram__values-link {
 
 .header__dribbble-description {
   font-family: var(--font-family);
+  /* font w лишний */
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
@@ -135,6 +144,7 @@ a.instagram__values-link {
 }
 
 .header__dribbble-follow__button {
+  /* сделать переиспольз */
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -142,7 +152,11 @@ a.instagram__values-link {
   position: relative;
   padding-bottom: 5px;
 
-  background: linear-gradient(90deg, var(--color-blue) 50%, var(--color-white) 50%);
+  background: linear-gradient(
+    90deg,
+    var(--color-blue) 50%,
+    var(--color-white) 50%
+  );
   background-size: 200% 100%;
   background-position: right bottom;
   -webkit-background-clip: text;
@@ -156,7 +170,8 @@ a.instagram__values-link {
 }
 
 .header__dribbble-follow__button::after {
-  content: '';
+  /* сделать переисп */
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -172,6 +187,7 @@ a.instagram__values-link {
 
 .dribbble__content {
   position: relative;
+  /* фиксы исправить */
   width: 1076px;
   height: 676px;
 }
@@ -190,7 +206,7 @@ a.instagram__values-link {
 }
 
 .about__container {
-  position: relative; 
+  position: relative;
   display: flex;
   flex-direction: row;
   gap: 24px;
@@ -198,10 +214,12 @@ a.instagram__values-link {
 }
 
 .header__about {
+  /* фиксы исправить */
   width: 636px;
   position: sticky;
   top: 120px;
   align-self: flex-start;
+  /* можно использ переменные */
   margin-bottom: calc(790px - 279px);
 }
 
@@ -224,6 +242,7 @@ a.instagram__values-link {
 }
 
 .header__about-follow__button {
+  /* переисп комп */
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -231,7 +250,11 @@ a.instagram__values-link {
   position: relative;
   padding-bottom: 5px;
 
-  background: linear-gradient(90deg, var(--color-blue) 50%, var(--color-white) 50%);
+  background: linear-gradient(
+    90deg,
+    var(--color-blue) 50%,
+    var(--color-white) 50%
+  );
   background-size: 200% 100%;
   background-position: right bottom;
   -webkit-background-clip: text;
@@ -241,11 +264,13 @@ a.instagram__values-link {
 }
 
 .header__about-follow__button:hover {
+  /* переисп комп */
   background-position: left bottom;
 }
 
 .header__about-follow__button::after {
-  content: '';
+  /* переисп комп */
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -262,11 +287,12 @@ a.instagram__values-link {
 .about__card-list {
   display: flex;
   flex-direction: column;
-  gap: 120px; 
+  gap: 120px;
   flex: 1;
 }
 
 .about__card-list-item {
+  /* убрать фиксы */
   width: 638px;
   height: 790px;
 }
@@ -292,10 +318,10 @@ a.instagram__values-link {
 
 .card__content-author__info {
   font-family: var(--font-family);
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: var(--color-dark-grey);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--color-dark-grey);
 }
 .header__container {
   margin: 0px 72px;
@@ -320,9 +346,12 @@ color: var(--color-dark-grey);
 .hero__img {
   position: relative;
   z-index: 2;
+  /* max width width 100 
+  height */
   min-height: 650px;
   min-width: 750px;
   padding-top: 80px;
+  /* исправить на паддинг */
   margin-bottom: 82px;
 }
 
@@ -338,17 +367,20 @@ color: var(--color-dark-grey);
   margin-left: -88px;
 }
 
+/* бэм исправить */
 .content-h {
   font-size: 78px;
   font-weight: 700;
 }
 
+/* бэм исправить */
 .content-p {
   font-size: 18px;
   line-height: 150%;
   margin-top: 32px;
 }
 
+/* бэм исправить */
 .content-accent {
   opacity: 50%;
 }
@@ -357,6 +389,7 @@ color: var(--color-dark-grey);
   position: absolute;
   z-index: -1;
   background-color: #181823;
+  /* исправить фикс размеры */
   height: 900px;
   width: 900px;
   right: 0;
@@ -417,6 +450,7 @@ color: var(--color-dark-grey);
 }
 
 .experience-card__description {
+  /* фонт веит не нужен */
   font-weight: 400;
   line-height: 150%;
   color: #8491a0;
@@ -509,10 +543,12 @@ a.values__link {
 .footer__list-item-link {
   color: #fff;
   line-height: 150%;
+  /* фонт веит не нужен */
   font-weight: 400;
 }
 
 .footer__social-items img {
+  /* исправить выравнивание и размеры картинок в контейнере */
   vertical-align: middle;
 }
 
@@ -526,6 +562,7 @@ a.values__link {
 
 .footer__list {
   padding-top: 15px;
+  /* сделать флекс и гэп*/
 }
 
 .footer__list li + li {
@@ -553,11 +590,13 @@ a.values__link {
 .skillset__tittle {
   font-size: 55px;
   font-weight: 700;
+  /* удалить */
   font-family: Sen, sans-serif;
 }
 
 .skillset__description {
   font-weight: 400;
+  /* удалить */
   font-family: Sen, sans-serif;
   font-size: 18px;
   line-height: 150%;
@@ -574,6 +613,7 @@ a.values__link {
 }
 
 .scillset__card-big {
+  /* убрать фикс ширину */
   height: 200px;
 }
 
@@ -615,6 +655,7 @@ a.values__link {
 
 .card__scrollbar {
   flex: 0 0 auto;
+  /* фиксир размеры убрать */
   width: 340px;
   height: 140px;
   border: 1px solid #181823;
@@ -624,6 +665,7 @@ a.values__link {
 }
 
 .myprojects {
+  /* используй класс контейнер из utils */
   padding-top: 120px;
   padding-inline: 72px;
   padding-bottom: 153px;
@@ -664,10 +706,12 @@ a.values__link {
 }
 
 .myprojects__card {
+  /* фиксир размеры */
   width: 636px;
 }
 
 .myprojects__image {
+  /* фиксир размеры */
   width: 100%;
   height: 620px;
 }
@@ -783,6 +827,7 @@ a.values__link {
 }
 
 .feedback__label-input {
+  /* фиксир размеры */
   width: 526px;
   height: 50px;
   background-color: var(--color-black-light);
@@ -795,6 +840,7 @@ a.values__link {
 }
 
 .feedback__label-textarea {
+  /* фиксир размеры */
   width: 526px;
   height: 100px;
   background-color: var(--color-black-light);
@@ -810,6 +856,7 @@ a.values__link {
 
 .feedback__button {
   padding: 24px 32px;
+  /* фиксир размеры */
   width: 526px;
   height: 75px;
   background-color: var(--color-blue);
